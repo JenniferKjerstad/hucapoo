@@ -1,9 +1,4 @@
-/**
-* Template Name: Delicious - v2.0.0
-* Template URL: https://bootstrapmade.com/delicious-free-restaurant-bootstrap-theme/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 !(function($) {
   "use strict";
 
@@ -181,22 +176,6 @@
         filter: $(this).data('filter')
       });
     });
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".events-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
-  });
-
-  // Testimonials carousel (uses the Owl Carousel library)
-  $(".testimonials-carousel").owlCarousel({
-    autoplay: true,
-    dots: true,
-    loop: true,
-    items: 1
   });
 
   // Initiate venobox lightbox
